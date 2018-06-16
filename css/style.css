@@ -1,0 +1,47 @@
+
+body{
+  background-color:#AAD4FF;
+  
+}
+.header-text{
+  margin:30px;
+  background-color: rgba(255, 170, 170, 0.55);
+  border:solid;
+  border-width:1px;
+
+}
+
+
+.image1{
+  margin-top:-15px;
+  margin-bottom: -15px;
+  padding-top: 37px;
+  padding-bottom: 37px;
+  padding-right:157px;
+  padding-left:157px;
+}
+<!-- 
+.main-text{
+  margin: 15px;
+  padding: 30px;
+}
+-->
+.quote{
+  text-align: center;
+  font-style: italic;
+}
+.awards-list{
+  list-style-type:none;
+  padding-left:35%;
+}
+
+.section-spacing{
+  padding-top: 30px;
+}
+
+
+.other-works{
+  margin: 30px;
+  height: 350px;
+  padding: 15px;
+}
