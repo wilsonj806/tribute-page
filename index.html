@@ -1,0 +1,160 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="/css/style.css" type="text/css"
+
+<script>
+  $(document).ready(function(){
+    $("div").addClass("container-fluid");
+	$("div.gallery").addClass("text-center");
+	$(".section-text").addClass("text-center");
+	$(".gal-img").addClass("img-responsive");
+  });
+</script>  
+<!--
+  Free Code Camp Tribute Page
+  Version: 0.75
+  Start Date: 03/06/2018
+  Last Updated: 03/18/2018
+  Requirements: Tribute page needs to have an image and text to accompany it; needs to have a clickable link that will lead to an external site with additional information
+  Additional Requirements:
+  Must have at least one image be a clickable link
+  Must have proper padding for all elements
+-->
+
+<style>
+</style>
+
+<div class="row">
+<!--
+For the title and etc	
+Overhaul this to not use Bootstrap grid? It's overkill
+-->
+
+<div class="col-lg-5 header-text">
+<h1>Ai Wei Wei</h1>
+<h2>Artist, political activist, humanitarian</h2>
+</div>
+
+</div>
+
+<div class="row section-spacing">
+<!--
+For the bio and etc	
+-->
+<div class="col-lg-6 w-50">
+<h3>A Brief Biography</h3>
+<p>
+Ai Wei Wei is one of the most high-profile Chinese contemporary artists and activists today. Born in 1957 to the Chinese poet Ai Qing during Mao’s Cultural Revolution, he has spent most of his childhood with his exiled parents. After Mao Zedong’s death, his family returned to Beijing and in 1978 Ai Wei Wei joined the Beijing Film Academy where he studied animation. There, he and several other students started an avant garde art group called the Stars. Then in 1981 to 1993 he moved to the United States where he briefly attended the Parsons School of Design in New York City. It was there that he was exposed to the works of Marcel Duchamp, Andy Warhol, and Jasper Johns and started creating his own conceptual art from readymade objects.
+<p>
+He returned to China in 1993 due to his father’s illness and in 1999 built his first architectural project, a studio house. His interest in architecture led him to found the architecture studio FAKE Design in 2003 and in the next decade would create numerous works using a variety of media (video, visual, etc). In addition he would also use his works for his own political activism such as the 2008 documentary (Little Cheeks) that would show the citizen investigation into the casualties of the May 2008 Sichuan earthquake; or his 2017 work, Law Of The Journey which reflects the ongoing refugee crisis of Syria.
+</p>
+More information about Ai Wei Wei can be found <a href="https://en.wikipedia.org/wiki/Ai_Weiwei" target="_blank"> on his Wikipedia Page</a>
+<h3 class="section-text">Awards and Honors</h3>
+
+<!--
+Make an unordered unformatted list
+-->
+<ul class="awards-list text-left section-spacing">
+<li><b>2015</b> Ambassador of Conscience Award</li>
+<li><b>2013</b> Appraisers Association Award for Excellence in the Arts</li>
+<li><b>2013</b> Amnesty Media Award</li>
+<li><b>2012</b> Václav Havel Prize for Creative Dissent</li>
+<sub>See note at the end of the page</sub>
+</ul>
+
+<h3 class="section-text section-spacing">Quotes</h3>
+<p class="quote">
+“I think my stance and my way of life is my most important art,” he said. “Those other works might be collectible—something you can hang on the wall—but that’s just a conventional perspective. We shouldn’t do things a certain way just because Rembrandt did it that way. If Shakespeare were alive today, he might be writing on Twitter.”
+</p>
+
+<p class="quote">
+“I tried both ways, but most of the time I want my voice to be heard... I think, as artists, to give just a gesture is not enough. The fight takes a real struggle. To give a moral kind of superiority shows a problem, because we have to see that we’re all together. The struggle makes the meaning. I prefer to have a real fight than withdraw from the fight.”
+</p>
+</div>
+
+
+<div class="col-lg-6 w-50 image1">
+<!-- image is going to be oddly positioned on smaller screens -->
+<img class="img-responsive" src="https://media.newyorker.com/photos/59096f12019dfc3494ea1e2b/master/w_1023,c_limit/100524_r19635_p646.jpg" alt= "Ai Wei Wei portrait" >
+</div>
+
+</div>
+
+
+<h3 class="section-text">Other Works</h3>
+
+<div class="row section-spacing other-works">
+<!--
+For the other works
+-->
+<div class="col-lg-4 col-xs-4 col-md-4  gallery">
+<a target="_blank" href="http://i.dailymail.co.uk/i/pix/2010/10/12/article-1319515-0B916CF2000005DC-140_964x620.jpg ">
+    <img class="gal-img" src="http://i.dailymail.co.uk/i/pix/2010/10/12/article-1319515-0B916CF2000005DC-140_964x620.jpg " alt="Sunflower Seeds">
+  <div class="desc">Sunflower Seeds at Tate Modern</div>
+  </a>
+</div>
+
+<div class="col-lg-4 col-xs-4  col-md-4  gallery">
+<a target="_blank" href="https://gdb.voanews.com/A32A86AB-8E2B-42E2-9768-2F5D9E85BD3B_cx0_cy1_cw0_w1597_n_r1_s.jpg  ">
+    <img class="gal-img" src="https://gdb.voanews.com/A32A86AB-8E2B-42E2-9768-2F5D9E85BD3B_cx0_cy1_cw0_w1597_n_r1_s.jpg  " alt="Good Fences Make Good Neighbors">
+  <div class="desc">Good Fences Make Good Neighbors in New York City</div>
+  </a>
+</div>
+
+<div class="col-lg-4 col-xs-4 col-md-4 gallery">
+<a target="_blank" href="https://www.juxtapoz.com/media/k2/galleries/63820/JuxtapozAiWeiwei00.jpg  ">
+    <img class="gal-img" src="https://www.juxtapoz.com/media/k2/galleries/63820/JuxtapozAiWeiwei00.jpg  " alt="Law Of The Journey">
+  <div class="desc">Law Of The Journey at the National Gallery in Prague</div>
+  </a>
+</div>
+</div>
+
+<div class="clearfix visible-xs-block"></div>
+
+<div class="footer">
+<!--
+
+-->
+<h4>Page made by Wilson Jiang
+</h4>
+
+<p><sup>Note that the Awards and Honors section is not intended to be an exhaustive list of Ai Wei Wei's awards</sup></p>
+</div>
+<!--
+images to use:
+https://media.newyorker.com/photos/59096f12019dfc3494ea1e2b/master/w_1023,c_limit/100524_r19635_p646.jpg (ai wei wei portrait)
+http://i.dailymail.co.uk/i/pix/2010/10/12/article-1319515-0B916CF2000005DC-140_964x620.jpg (sunflower seeds)
+https://gdb.voanews.com/A32A86AB-8E2B-42E2-9768-2F5D9E85BD3B_cx0_cy1_cw0_w1597_n_r1_s.jpg (good fences make good neighbors)
+https://www.juxtapoz.com/media/k2/galleries/63820/JuxtapozAiWeiwei00.jpg (law of the journey)
+
+links to use:
+  <a href="https://en.wikipedia.org/wiki/Ai_Weiwei" target="_blank">Wikipedia Page</a>
+  <a href="https://www.newyorker.com/magazine/2010/05/24/its-not-beautiful" target="_blank">New Yorker Article</a>
+  <a href="https://www.theguardian.com/artanddesign/2018/mar/12/ai-weiwei-on-the-us-australia-refugee-deal-its-exactly-like-slave-trading target=_blank">Guardian Article</a>
+  
+quotes
+“I think my stance and my way of life is my most important art,” he said. “Those other works might be collectible—something you can hang on the wall—but that’s just a conventional perspective. We shouldn’t do things a certain way just because Rembrandt did it that way. If Shakespeare were alive today, he might be writing on Twitter.”
+“I tried both ways, but most of the time I want my voice to be heard,” he says. “I think, as artists, to give just a gesture is not enough. The fight takes a real struggle. To give a moral kind of superiority shows a problem, because we have to see that we’re all together. The struggle makes the meaning. I prefer to have a real fight than withdraw from the fight.”
+
+awards
+2015
+
+background image?
+http://backgroundcheckall.com/wp-content/uploads/2017/12/low-poly-background-white-7.jpg
+-->
+
+<!--
+Notes:
+Container-fluid adds 30px of gutter width by default
+  *it has a weird interaction when adding it to Bootstrap columns
+Page layout is meant to be relatively simple while implementing as much stuff I learned from the basic front end dev lessons as possible
+  *means don't go ham with extra features as 1.) the requirements for this project aren't particularly complicated and 2.) feature creep is real and I don't want to spend 3 weeks on this
+The workflow for finishing this project was kind of rough
+  *next time don't preemptively add classes
+  - or do specific ones like as follows
+	p.center{} where only paragraph elements with the class center get the CSS attribute applied to it
+Also use jQuery to add repeated classes/ CSS attributes
+Make the portrait of Ai Wei Wei responsive and define the height of the row?
+The Bootstrap class .row adds -15px margins
+  *Figure out best practice for using Bootstrap to layout rows and columns along with doing margins and such
+-->
