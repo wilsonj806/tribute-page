@@ -1,11 +1,11 @@
 
 body{
-  background-color:#AAD4FF;
+  background-color:rgb(240, 240, 240);
   
 }
 .header-text{
   margin:30px;
-  background-color: rgba(255, 170, 170, 0.55);
+  background-color: rgba(0, 0, 0, 0.25);
   border:solid;
   border-width:1px;
 
@@ -42,6 +42,6 @@ body{
 
 .other-works{
   margin: 30px;
-  height: 350px;
+  height: 420px;
   padding: 15px;
 }
